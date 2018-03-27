@@ -27,10 +27,12 @@ h1 {
   color: $page_color !important;
 }
 
+.right-content {
+}
+
 .img2 {
-  background: url("../assets/poster1.png");
-  background-size: cover;
+  background: url("https://s31.postimg.org/3v4tknsmz/poster1.png") no-repeat;
   background-position: center;
-  min-height: 100%;
+  background-color: black;
 }
 </style>

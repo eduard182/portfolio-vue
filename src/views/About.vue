@@ -1,14 +1,19 @@
 <template>
   <div class="about main-content">
     <div class="left-content">
+     
       <h1>About me</h1>
+      
       <p class="subtxt">
         "I am constantly trying to communicate something incommunicable..." 
       </p>
-<p class="author">
-  - Franz Kafka
-</p>
+
+      <p class="author">
+                                - Franz Kafka
+      </p>
+
      <button><router-link to="/project/zero">Projects</router-link></button>
+
     </div>
     <div class="right-content">
       <p>A total unallergy to gazes savagely and repeatedly wedgied somebody else's ear-oil, prima facie OK the howling fantods. Empty apian drone of the dial tone pretty much unwittingly teratoid votaried self-transcendence not titivation but titillation. For Christ's sake genre-dysphoric massive pseudo-cartographic right triangle, sub-rosa dogmatic, less bullshitty. Parade of lesbian folk singers an absolute goddamned travesty, you decide this needs to be thought about puppet-a-clef-type allusion boner-fide miracle. Experialist shuffle thoroughgoingly invites the very question it begs when you come right down to it, doomed high-office claymation romance.</p>
@@ -20,30 +25,29 @@
 </template>
 
 <style lang="scss" scoped>
+.left-content {
+  background-color: black;
+  color: white;
+}
 
-  .left-content {
-    background-color: black;
-    color: white
-  }
+.right-content {
+  background: #fff;
+  padding: 50px;
+  margin-top: 80px;
+  display: block;
+}
 
-  .right-content {
-    background: #fff;
-    padding: 50px;
-    margin-top: 80px;
-    display: block;
-  }
+button {
+  font-size: 1.5em;
+  margin-top: 100px;
+}
 
-  button {
-    font-size: 1.5em;
-    margin-top: 100px;
-  }
+p {
+}
 
-p {}
-
-  .subtxt {
-    font-size: 1.5em;
-    margin-top: 30px;
-    color: white;
-  }
-
+.subtxt {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: white;
+}
 </style>
